@@ -1,0 +1,10 @@
+'''takes a text as input and converts it to ASCII decimal numbers.
+
+Example:
+Input: "Hello"   
+Output: 72 101 108 108 111
+'''
+
+user_text = str(input('Please enter your text for conversion to ASCII.\n'))
+for i in user_text:
+    print(ord(i), end = ' ')
